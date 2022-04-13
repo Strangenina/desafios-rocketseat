@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-size: 62.5%;
+}
+
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+}
+
+html {
+    background-color: var(--body-bg-color);
+}
+
+footer {
+    font-size: 1.4rem;
+    color: var(--purple);
+    text-align: center;
+}
+
+button {
+    width: 32rem;
+    height: 4.9rem;
+    background-color: var(--body-bg-color);
+    border: 0.2rem solid var(--purple);
+    border-radius: 1rem;
+    font-weight: 600;
+}
+
+a {
+    font-size: 1.6rem;
+    color: var(--purple);
+    text-decoration: none;
+}
+
+#main {
+    display: flex;
+    height: 95vh;
+}
+
+#content {
+    margin: auto;
+    width: 33rem;
+}
+
+#principal {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#principal>img {
+    width: 20rem;
+    height: 20rem;
+    border: 0.2rem solid var(--purple);
+    padding: 0.2rem;
+    border-radius: 50%;
+}
+
+#principal>a {
+    font-weight: 300;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+#links {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+#icons {
+    display: flex;
+    gap: 3rem;
+    margin: auto;
+    justify-content: center;
+    padding-top: 7rem;
+}
+
+/* DEU CERTO! */
